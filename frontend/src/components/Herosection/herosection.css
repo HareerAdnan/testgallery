@@ -1,0 +1,60 @@
+.entryHeroSection{
+    height: 850px;
+}
+.hero-container1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-top: -65px; 
+    position: relative;
+}
+
+.heroImage{
+    height: 100%;
+    width: 100%;
+}
+.heroImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.heroTitle {
+    color: #faa42b;
+    font-size: 100px;
+    margin-top: 6px;
+    white-space: nowrap; /* Prevent word breaks */
+    overflow-wrap: normal; /* Prevent wrapping */
+}
+
+
+/* .hero-btns{
+    margin-top: 60px;
+} */
+
+.btnGetS{
+    background: #faa42b;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+
+.HeroContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.HeroContentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* this one  */
+}
